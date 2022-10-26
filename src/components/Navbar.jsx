@@ -17,6 +17,7 @@ const Navbar = () => {
               <Link className="nav-link mx-3" to='/hazteCliente'>Hazte Cliente</Link>
               <Link className="nav-link mx-3" to="/contactanos">Contactanos</Link>
               <Link className="nav-link mx-3" to="/login">Inicio Sesion</Link>
+              <Link className="nav-link mx-3" to="/PortalUsuario">Rodrigo</Link>
         </div>    
       </div>
     </nav>

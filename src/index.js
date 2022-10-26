@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './App.css'
 import App from './App';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './views/Home';
 import Login from './views/login';
 import Contactanos from './views/contactanos';
 import Cliente from './views/hazteCliente';
+import PortalUsuario from '../src/views/PortalUsuario/PortalUsuario.jsx'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,6 +20,7 @@ root.render(
       <Route path='/login' element={<Login />}/>
       <Route path='/contactanos' element={<Contactanos />}/>
       <Route path='/hazteCliente' element={<Cliente />}/>
+      <Route path='/PortalUsuario' element={<PortalUsuario />}/>
       </Route>
     </Routes>  
   </BrowserRouter>
