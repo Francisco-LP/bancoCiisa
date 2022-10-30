@@ -9,6 +9,7 @@ import Login from './views/login';
 import Contactanos from './views/contactanos';
 import Cliente from './views/hazteCliente';
 import PortalUsuario from '../src/views/PortalUsuario/PortalUsuario.jsx'
+import { Saldo } from './views/PortalUsuario/Saldo';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,9 +20,17 @@ root.render(
       <Route index element={<Home />}/>
       <Route path='/login' element={<Login />}/>
       <Route path='/contactanos' element={<Contactanos />}/>
-      <Route path='/hazteCliente' element={<Cliente />}/>
-      <Route path='/PortalUsuario' element={<PortalUsuario />}/>
+      <Route path='/hazteCliente' element={<Cliente />}/>  
       </Route>
     </Routes>  
+
+
+    <Routes>
+
+      <Route path='/PortalUsuario' element={<PortalUsuario/>}>
+        
+      </Route>
+      
+    </Routes>
   </BrowserRouter>
 );

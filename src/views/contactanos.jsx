@@ -27,6 +27,7 @@ const Contactanos = () => {
             alert("Datos incompletos")
         }else{
             console.log(form);
+            return false;
         }
 
         reset();

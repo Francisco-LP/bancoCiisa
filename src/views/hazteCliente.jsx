@@ -27,9 +27,7 @@ const Cliente = () => {
                 <p>Correspondencia de entiedades bancarias o financieras, tales como: Estado de cuenta de tarjetas de credito, cartolas de cuenta corriente</p>
                 <p>3 ultimas liquidaciones</p>
                 <p className='my-5'><b>Declaracion de Inicio de actividade, Form N° 4415,  autorizado por el SII </b></p>
-                <div className='d-flex justify-content-center'>
-                    <button>Siguiente</button>
-                </div>
+            
             </div>
         </div>
      );

@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 const Login = () => {
     return (   
-        <h1>Aca va el login</h1>
+        <Fragment>
+            <div className='continer mt-5'>
+                <a href="/PortalUsuario" className='btn btn-success'>Aceptar</a>
+            </div>
+        </Fragment>
      );
 }
  
