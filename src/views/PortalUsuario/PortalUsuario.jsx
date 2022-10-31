@@ -53,20 +53,20 @@ const PortalUsuario = (props) => {
   
 
   return (
-    <div className="w-90 vh-100 container mt-2 bg-white">
+    <div className="w-90 vh-100 container mt-21bg-white">
       <h1 className="display-5">Portal de Usuario</h1>
       <div>
-        <div className="border border-dark mt-3 mb-1  content-info">
+        <div className="border border-dark mt-1 mb-1  content-info">
 
           <div className=" my-5">
             <NavbarSuperior />
           </div>
 
-          <div className="row mt-5 w-100 " >
-            <div className="col-sm-5 mt-5">
+          <div className="row mt-1 w-100 " >
+            <div className="col-sm-5">
               <div className="my-5">
                 <button
-                  className="nav-link mx-3 mt-1 mb-1 btn letra"
+                  className="nav-link mx-3  mb-1 btn letra"
                   onClick={handlebuttonClick}
                 >
                   <i className="bi bi-cash-coin"> </i>
