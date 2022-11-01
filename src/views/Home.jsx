@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import credito from "../img/credito.png";
-import cuenta from "../img/cuenta.png";
+
 
 const Home = () => {
   return (

@@ -25,7 +25,7 @@ export const Destinatarios = () => {
     } else {
       console.log(form);
     }
-    reset();
+    form.reset()
   };
 
   const reset = (e) => {
