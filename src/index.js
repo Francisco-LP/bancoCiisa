@@ -9,7 +9,8 @@ import Login from './views/login';
 import Contactanos from './views/contactanos';
 import Cliente from './views/hazteCliente';
 import PortalUsuario from '../src/views/PortalUsuario/PortalUsuario.jsx'
-import { Saldo } from './views/PortalUsuario/Saldo';
+import SignInPage from './views/RegisterPage';
+import ForgetPasswordPage from './views/ForgetPasswordPage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,7 +21,9 @@ root.render(
       <Route index element={<Home />}/>
       <Route path='/login' element={<Login />}/>
       <Route path='/contactanos' element={<Contactanos />}/>
-      <Route path='/hazteCliente' element={<Cliente />}/>  
+      <Route path='/hazteCliente' element={<Cliente />}/>
+      <Route path='/register' element={<SignInPage />}/>
+      <Route path='/forget-password' element={<ForgetPasswordPage/>}/>
       </Route>
     </Routes>  
 
